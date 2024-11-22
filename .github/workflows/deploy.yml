@@ -1,21 +1,24 @@
-name: Deploy via FTP
+name: FTP Deployment
 
 on:
   push:
     branches:
-      - main
+      - main  
 
 jobs:
-  ftp-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3 
+
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@5.0.0  
         with:
-          server: ftp.yourhost.com
+          server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist
-
+          local-dir: ./htdocs/  
+          server-dir: /htdocs 
+          protocol: ftp
