@@ -56,22 +56,22 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="./img/testimg1.png" alt="First slide">
                     <div class="carousel-caption">
-                        <h5 class="carsltitle">Reference Text</h5>
-                        <p class="carsltxt">helloooo this is information1</p>
+                        <h5 class="carsltitle">Centro Formación Profesional N°61</h5>
+                        <p class="carsltxt">Dependiente de la Dirección de Educación Técnico Profesional del Consejo General de Educación.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="./img/testimg2.png" alt="Second slide">
                     <div class="carousel-caption">
-                        <h5 class="carsltitle">Reference Text</h5>
-                        <p class="carsltxt">helloooo this is information2</p>
+                        <h5 class="carsltitle">Centro Formación Profesional N°61</h5>
+                        <p class="carsltxt">Funciona en la localidad de La Criolla desde el año 2014 y actualmente cuenta con un anexo en la ciudad vecina de Colonia Ayuí.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="./img/testimg3.png" alt="Third slide">
                     <div class="carousel-caption">
-                        <h5 class="carsltitle">Reference Text</h5>
-                        <p class="carsltxt">helloooo this is information3</p>
+                        <h5 class="carsltitle">Centro Formación Profesional N°61</h5>
+                        <p class="carsltxt">La Formación Profesional permite compatibilizar la promoción social, profesional y personal.</p>
                     </div>
                 </div>
             </div>
@@ -84,21 +84,22 @@
             </a>
         </div>
     </div>
-    <h1>uwuwuuw</h1>
-    
+    <h1>Centro Formación Profesional N°61</h1>
     <section id="abt">
-    <h3>title</h3>
-    <p>texxxtt</p>
-    </section>
-
-    <section id="obj">
-        <h3>title2</h3>
+        <h3>¿Quienes Somos?</h3>
         <p>texxxtt</p>
     </section>
+    <br>
+
+    <section id="obj">
+        <h3>Propósitos y objetivos:</h3>
+        <p>texxxtt</p>
+    </section>
+    <br>
 
     <section id="try">
-        <h3>title3</h3>
-    <p>texxxtt</p>
+        <h3>Trayectos</h3>
+        <p>textetxtetxttx</p>
     <div class="scroll-wrapper">
         <button class="scroll-btn left-btn" onclick="scrollToLeft()">&#8249;</button>
     
@@ -110,10 +111,10 @@
 
     </div>        
     </section>
-
+    <br>
     
     <section id="loc">
-        <h3>title4</h3>
+        <h3>¿Dónde estamos?</h3>
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-6 mb-4 mb-md-0">
@@ -123,13 +124,100 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-md-6">
-                    <p>Our shop is located at 123 Main Street, Springfield. You can find us near the central park, opposite the big supermarket.</p>
-                    <p><strong>By Car:</strong> Take Exit 5 from the highway, then follow Main Street for 2 miles.</p>
-                    <p><strong>By Bus:</strong> Take Bus 24 or 36 and stop at Central Park Station.</p>
+                    <p>Río Bermejo N°278 La Criolla, Dpto. Concordia.</p>
+                    <p>Instalaciones del Club Juan B. Alberdi.</p>
                 </div>
             </div>
         </div>
+        <br>
 
+        <section id="cnt">
+        <h3>Redes Sociales</h3>
+        <p>auauha</p>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-sm-6 clumn1">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                        <a href="https://wa.me/34541233356"
+                            class="btn btn-primary btn-block social-btn cntcbttnz">Whatsapp</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-instagram"></i></div>
+                        <a href="https://www.instagram.com/cfp61lacriolla"
+                            class="btn btn-primary btn-block social-btn cntcbttnz">Instagram</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-facebook"></i></div>
+                        <a href="https://www.facebook.com/cfp61"
+                            class="btn btn-primary btn-block social-btn cntcbttnz">Facebook</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 clumn2">
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-google"></i></div>
+                        <a href="mailto:cfplacriolla@gmail.com" class="btn btn-primary btn-block social-btn cntcbttnz">Administración</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-google"></i></div>
+                            <a href="mailto:cfp61.lacriolla@gmail.com" class="btn btn-primary btn-block social-btn cntcbttnz">Rectoría</a>
+                        </div>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-box"><i class="fab fa-google"></i></div>
+                        <a href="mailto:cfp61.cd@entrerios.com.ar" class="btn btn-primary btn-block social-btn cntcbttnz">Institucional</a>
+                    </div>
+                </div>                
+            </div><br>
+    </section>
+
+    <div class="wrapper">
+        <div class="content">
+            <h3>Contáctanos por Email</h3>
+            <p><b>Requisitos para la solicitud de Certificados Formación Profesional:</b></p>
+            <p>- Ser mayor de 18 años.</p>
+            <p>- Contar con DNI o cerficado de inicio de trámite.</p>
+            <br>
+            <p><b>Dependiendo del Curso o Trayecto Formativo, se puede solicitar:</b></p>
+            <p>- Nivel Primario Completo.</p>
+            <p>- Ciclo básico del nivel Secundario completo.</p>
+            <p>- Nivel Secundario completo.</p>
+            <br>
+            <p><b>Puede contactarnos directamente a nuestro email a través de este formulario:</b></p>
+            <form id="contactForm" action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu Nombre" pattern="^[a-zA-Z\s]{2,50}$"
+                    title="Por favor añada un nombre válido." required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="nombre@gmail.com"
+                    pattern="[a-z0-9._%+-]+@gmail\.com$" title="Por favor añada un gmail válido" required><br>
+
+                <label for="phone">Teléfono (opcional):</label>
+                <input type="text" id="phone" name="phone" placeholder="Tu Número de Teléfono"
+                    pattern="^\+?[0-9]{10,15}$" title="Por favor añada un número de teléfono válido."><br>
+
+                <label for="sbjct">Asunto:</label>
+                <input type="text" id="sbjct" name="sbjct" placeholder="Razón de Contacto" pattern=".{2,100}"
+                    title="El mínimo de caracteres es de 2" required><br>
+
+                <label for="msg">Cuerpo:</label>
+                <textarea id="msg" name="msg" rows="4" placeholder="El cuerpo del mensaje" minlength="50"
+                    title="El mínimo de caracteres es de 50" required></textarea><br>
+
+                <button type="submit" class="frmbttnz">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <img src="img/CFPlogo.png" alt="Logo" id="logo">
+    <p>&copy; 2024 Centro de Formación Profesional N°61. All rights reserved.</p>
+    <p>&copy; 2024 Miyuki "Snake" Shiro : Programmer.</p>
+    <button onclick="topFunction()" id="back-to-top" title="Go to top">&uarr;</button>
+</footer>
+</div>
 
     <script src="script.js"></script>
     <script src="theme.js"></script>
