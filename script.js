@@ -140,3 +140,28 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+const buttons = document.querySelectorAll('.cntcbttnz');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const email = button.getAttribute('data-email'); 
+        const emailDisplay = document.getElementById('email-display'); 
+
+        emailDisplay.innerHTML = `Email: <a href="mailto:${email}">${email}</a>`;
+    });
+});
+
+//Footer Button Script
+window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
