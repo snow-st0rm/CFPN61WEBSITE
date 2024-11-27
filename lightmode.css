@@ -290,7 +290,6 @@ p {
 .card-container {
     display: flex;
     overflow-x: auto;
-    white-space: nowrap;
     gap: 1rem;
     padding: 1rem;
     scroll-behavior: smooth;
@@ -325,15 +324,6 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-}
-
-.card-container {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    gap: 1rem;
-    padding: 1rem;
-    scroll-behavior: smooth;
 }
 
 .scroll-btn {
@@ -385,10 +375,10 @@ p {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    overflow-wrap: break-word;
 }
 
 .card-title {
@@ -399,6 +389,8 @@ p {
 .card-text {
     font-size: 1rem;
     color: #008deb;
+    margin: 0.5rem 0;
+    overflow-wrap: break-word;
 }
 
 .crdbttnz {
@@ -431,7 +423,6 @@ p {
         display: flex;
         flex-direction: row;
         overflow-x: auto;
-        white-space: nowrap;
         gap: 1rem;
     }
 
@@ -483,21 +474,47 @@ p {
 }
 
 .login-container {
+    width: auto; 
+    max-width: 90%;
     background-color: #006aeb;
-    padding: 40px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px #bbdede;
     text-align: center;
-    width: 100%;
-    max-width: 320px; 
     box-sizing: border-box;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    overflow: auto; 
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.login-container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-container input,
+.login-container textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 12px; 
+    gap: 12px;
+    align-items: stretch;
 }
+
 
 input[type="text"], input[type="password"] {
     padding: 8px; 
@@ -517,6 +534,12 @@ label {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%; 
+    }
 }
 
 /* Social Buttons */

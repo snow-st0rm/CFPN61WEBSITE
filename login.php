@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $usrnme;
             echo "Usuario y Contraseña correctos, lo estamos redireccionando a la página de administración...";
-            header("Location: admin.html");
+            header("Location: adminw3bsite.html");
             exit();
         } else {
             echo "Contraseña incorrecta.";
