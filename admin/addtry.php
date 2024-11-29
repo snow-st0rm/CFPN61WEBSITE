@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->bindParam(':smalldesc', $smalldesc);
         $stmt->bindParam(':fulldesc', $fulldesc);
         $stmt->bindParam(':imge', $imge);
-        
+
         $stmt->execute();
 
         $lastId = $conn->lastInsertId();

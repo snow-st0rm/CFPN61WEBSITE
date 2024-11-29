@@ -68,7 +68,7 @@ if (isset($_POST['delete'])) {
     <div class="d-flex justify-content-center align-items-center vh-100">
         <div class="admin-container">
             <h2>Eliminar Trayecto</h2>
-            
+
             <form method="get" action="deltry.php">
                 <label for="select-id">Seleccione el ID del Trayecto a Eliminar:</label>
                 <select id="select-id" name="id" class="form-select mb-3" onchange="this.form.submit()">
@@ -101,7 +101,7 @@ if (isset($_POST['delete'])) {
     </div>
 
     <?php include 'footer.php'; ?>
-    
+
     <script src="adminscript.js"></script>
     <script src="admintheme.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -109,4 +109,5 @@ if (isset($_POST['delete'])) {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
