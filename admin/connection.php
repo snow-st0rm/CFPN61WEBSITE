@@ -1,8 +1,8 @@
 <?php
 $servername = "sql10.freesqldatabase.com";
-$user = "sql10745565";  
-$pass = "v9BG7wIDDE";      
-$dbname = "sql10745565";  
+$user = "sql10745565";
+$pass = "v9BG7wIDDE";
+$dbname = "sql10745565";
 $port = 3306;
 
 try {
@@ -13,4 +13,3 @@ try {
     echo "<script>console.error('Connection to database failed: " . addslashes($e->getMessage()) . "');</script>";
     exit();
 }
-?>

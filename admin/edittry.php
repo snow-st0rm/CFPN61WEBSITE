@@ -71,13 +71,13 @@ if (isset($_GET['id'])) {
                 <input type="hidden" name="id" value="<?php echo htmlspecialchars($trayecto['id'] ?? ''); ?>">
 
                 <label for="name">Nombre del Trayecto:</label>
-                <input type="text" id="name" name="name" class="form-control" 
-                       value="<?php echo htmlspecialchars($trayecto['nme'] ?? ''); ?>" required>
+                <input type="text" id="name" name="name" class="form-control"
+                    value="<?php echo htmlspecialchars($trayecto['nme'] ?? ''); ?>" required>
                 <br>
 
                 <label for="image">URL de Imagen:</label>
                 <input type="text" id="image" name="image" class="form-control"
-                       value="<?php echo htmlspecialchars($trayecto['imge'] ?? ''); ?>" required>
+                    value="<?php echo htmlspecialchars($trayecto['imge'] ?? ''); ?>" required>
                 <br>
 
                 <label for="smalldesc">Descripción pequeña:</label>
@@ -96,7 +96,7 @@ if (isset($_GET['id'])) {
     <br>
 
     <?php include 'footer.php'; ?>
-    
+
     <script src="adminscript.js"></script>
     <script src="admintheme.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -104,4 +104,5 @@ if (isset($_GET['id'])) {
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

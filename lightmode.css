@@ -119,7 +119,8 @@ header {
     }
 }
 
-.bttnz, .spcbttnz {
+.bttnz,
+.spcbttnz {
     display: block;
     width: 100%;
     text-align: center;
@@ -217,10 +218,10 @@ p {
 
 /* Carousel */
 .carousel-caption {
-    background-color: #00b8eb41;
+    background-color: #06080f63;
     padding: 10px;
-    bottom: 20px; 
-    left: 120px; 
+    bottom: 20px;
+    left: 120px;
     right: 120px;
     text-align: center;
 }
@@ -240,7 +241,7 @@ p {
 }
 
 .carousel-indicators li {
-    background-color: #001feb78;
+    background-color: #06080f63;
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -257,14 +258,14 @@ p {
     .carousel-caption {
         font-size: 5px;
         bottom: 5px;
-        left: 10px; 
+        left: 10px;
         right: 10px;
     }
 
     .carsltitle {
         font-size: 15px;
     }
-    
+
     .carsltxt {
         font-size: 10px;
     }
@@ -295,6 +296,24 @@ p {
     scroll-behavior: smooth;
 }
 
+.left-btn {
+    left: 0.5rem;
+}
+
+.right-btn {
+    right: 0.5rem;
+}
+
+.scroll-btn.hidden {
+    display: none;
+}
+
+.scroll-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .scroll-btn {
     position: absolute;
     top: 50%;
@@ -317,38 +336,15 @@ p {
 }
 
 .scroll-btn.hidden {
-    display: none; 
+    display: none;
 }
-
-.scroll-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.scroll-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #00b8eb41;
-    color: #f0ffff;
-    border: none;
-    font-size: 2rem;
-    padding: 0.5rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.left-btn { left: 0.5rem; }
-.right-btn { right: 0.5rem; }
-
-.scroll-btn.hidden { display: none; }
 
 .card {
-    background-color: #7fffd4; 
+    background-color: #7fffd4;
     color: #171334;
     border: 2px solid #006aeb;
     border-radius: 8px;
+    word-wrap: break-word;
     overflow: hidden;
     width: 100%;
     max-width: 18rem;
@@ -390,7 +386,11 @@ p {
     font-size: 1rem;
     color: #008deb;
     margin: 0.5rem 0;
+    word-wrap: break-word;
+    word-break: break-word;
     overflow-wrap: break-word;
+    white-space: normal;
+    hyphens: auto;
 }
 
 .crdbttnz {
@@ -435,7 +435,7 @@ p {
     .card-container {
         gap: 1rem;
     }
-    
+
     .card {
         min-width: 45%;
     }
@@ -474,7 +474,7 @@ p {
 }
 
 .login-container {
-    width: auto; 
+    width: auto;
     max-width: 90%;
     background-color: #006aeb;
     padding: 20px;
@@ -482,14 +482,15 @@ p {
     box-shadow: 0 4px 10px #bbdede;
     text-align: center;
     box-sizing: border-box;
-    word-wrap: break-word; 
+    word-wrap: break-word;
     overflow-wrap: break-word;
-    overflow: auto; 
+    overflow: auto;
 }
 
 .login-container h2 {
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    color: #f0ffff;
 }
 
 .login-container label {
@@ -499,13 +500,13 @@ p {
 
 .login-container input,
 .login-container textarea {
-    width: 100%; 
-    padding: 10px; 
-    margin-top: 5px; 
-    margin-bottom: 15px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #0012d7;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 form {
@@ -516,8 +517,9 @@ form {
 }
 
 
-input[type="text"], input[type="password"] {
-    padding: 8px; 
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
     margin: 5px 0;
     border: 1px solid #1106dc;
     border-radius: 4px;
@@ -538,7 +540,7 @@ label {
 
 @media (max-width: 600px) {
     .login-container {
-        width: 90%; 
+        width: 90%;
     }
 }
 
@@ -613,7 +615,9 @@ label {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .clumn1, .clumn2 {
+
+    .clumn1,
+    .clumn2 {
         margin-bottom: 0;
     }
 
@@ -759,4 +763,8 @@ footer p {
     height: auto;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+.credits {
+    color: #7fffd4;
 }
